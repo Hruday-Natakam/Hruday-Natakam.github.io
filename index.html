@@ -384,12 +384,14 @@
                   <h6>University of Liverpool Student</h6>
                 </div>
                 <div>
-                  <span class="last-updated">
-                    Last modification: <!--#flastmod file="test3.shtml" -->
+                  <span class="lastModified">
+                    Last modification: 
                   </span>
                 </div>
               </div>
-      
+      <script>
+        document.getElementById("lastModified").textContent = new Date(document.lastModified).toLocaleString();
+    </script>
               <div class="footer__lower">
                 &copy; Copyright 2024. Made by
                 <a rel="noreferrer" target="_blank" href="https://student.csc.liv.ac.uk/~sghnatak/wp-assignment/test3.shtml">Hruday Natakam</a>
